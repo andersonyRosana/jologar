@@ -1,0 +1,60 @@
+.separador {
+    width: 100%;
+    height: 250px;
+    background-image: url(../../../assets/drimosoft-img-fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+
+.separador p {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+}
+
+/* ------------------------- */
+/* Acerca de */
+/* ------------------------- */
+.acerca-de {
+    margin-bottom: 60px;
+}
+
+/* ------------------------- */
+/* Galeria */
+/* ------------------------- */
+.galeria {
+    margin-bottom: 60px;
+}
+
+.galeria img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contacto {
+    margin-bottom: 60px;
+}
+
+.redes-sociales {
+    padding: 10px;
+    background-color: var(--purple-light);
+}
+
+.redes-sociales img {
+    padding: 5px;
+    border-radius: 100%;
+    width: 50px;
+    transition: .3s ease all;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,98 @@
+.contenido-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/drimosoft.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenido-header .fondo {
+    width: 0%;
+    height: 100%;
+    max-width: 100%;
+    background-image: url(../../../assets/bg-top.png);
+}
+
+.contenido-header .texto {
+    width: calc(100vw - 20px);
+    height: 100vh;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    mix-blend-mode: multiply;
+}
+
+/* ------------------------- */
+/* NAVBAR */
+/* ------------------------- */
+.menu {
+    background-color: #209fd8;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 26px;
+    background-color: var(--purple-medium);
+    margin: 0 10px;
+    transition: .5s ease all;
+    color: var(--gray-light);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    transform: translateY(18px);
+    background-color: white;
+    border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 992px) {
+    p {
+        font-size: 18px;
+    }
+
+    .contenido-header .texto {
+        font-size: 60px;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    .nosotros .titulo,
+    .productos .titulo {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    p {
+        font-size: 18px;
+    }
+
+    .contenido-header .texto {
+        font-size: 40px;
+    }
+
+
+}
+
