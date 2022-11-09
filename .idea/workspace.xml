@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2117fe92-e3d5-48e6-9890-39f8f29163c0" name="Default Changelist" comment="" />
+    <list default="true" id="2117fe92-e3d5-48e6-9890-39f8f29163c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +13,18 @@
   <component name="FavoritesManager">
     <favorites_list name="jologar" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Yornel\Documents\anderson\projectsPRO\Projects\jologar\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="2HE3guLLWcgBPTFOrRhljTi4Vlh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -72,6 +85,7 @@
       <workItem from="1667848073523" duration="5685000" />
       <workItem from="1667853922792" duration="6511000" />
       <workItem from="1667909753602" duration="31628000" />
+      <workItem from="1667951758977" duration="1082000" />
     </task>
     <servers />
   </component>
@@ -81,6 +95,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/app/shared/components/index.js" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
 </project>
